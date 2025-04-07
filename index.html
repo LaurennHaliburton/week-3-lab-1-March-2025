@@ -3,14 +3,21 @@
     <title>Learning CSS</title>
     <style>
       h1 {
-        color: red;
+        color: rgb(17, 0, 255);
       }
+      
+    
 
       p {
         margin: 32px;
       }
 
       button {
+        margin: 32px;
+      }
+
+      table {
+        margin: center;
       }
 
       /* TODO: add styles for header  */
@@ -22,72 +29,80 @@
       }
     </style>
     <link rel="stylesheet" href="style.css">
+    
+    <nav>
+      <a href="index.html">HOME</a> |
+      <a href="About.html">ABOUT</a> |
+      <a href="Gallery.html">GALLERY</a>
+    </nav>
+
   </head>
   <body>
     <header>
-      <h1 style="text-decoration: underline">I like cats!
+      
+      <h1 style="text-decoration: underline" >I like cats!
       </h1>
     </header>
     <main>
-      <p class="paragraph-1" style="">
-        <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar <strong>mattis</strong> nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam.    
+      <p class="paragraph1" style="font-family:'Bradley Hand ITC', cursive;
+       margin: 20px;
+       padding: 20px;
+       ">
+        <em>Nice kitty!</em> Consectetur Cats are curious, independent animals known for their playful behavior and mysterious nature. Whether they’re lounging in a sunny spot, chasing after a toy, or exploring their surroundings, cats bring joy and comfort to millions of households around the world. With their soft fur, expressive eyes, and unique personalities, it’s no wonder they’ve become one of the most popular pets. From ancient times to the modern day, cats have captured the hearts of humans and continue to be cherished companions.    
       </p>
     
-      <p style="">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar mattis nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.
-        Nulla aliquet enim tortor at auctor urna nunc id cursus. Gravida arcu ac
-        tortor dignissim convallis aenean. Nulla porttitor massa id neque aliquam
-        vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
-        erat nam at lectus urna duis.
+      <p class="paragraph-2"style=" font-family: 'Bradley Hand ITC', cursive;">
+        The 1990s were a golden era for iconic toys, and few captured the decade's magic like the Tamagotchi. This tiny digital pet, attached to a keychain-sized screen, became a worldwide sensation as kids everywhere took on the responsibility of feeding, playing with, and cleaning up after their pixelated companions. Whether it was begging to be fed in the middle of math class or sadly “dying” after being ignored for too long, the Tamagotchi was more than just a toy—it was a cultural moment. Alongside it, other '90s classics like Beanie Babies, Polly Pocket, and Furby helped define childhood for an entire generation.
+
       </p>
     
-      <p style="">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar mattis nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.
-        Nulla aliquet enim tortor at auctor urna nunc id cursus. Gravida arcu ac
-        tortor dignissim convallis aenean. Nulla porttitor massa id neque aliquam
-        vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
-        erat nam at lectus urna duis.
+      <p class="paragraph3" style="font-family: 'Bradley Hand ITC', cursive;
+     ">
+        Walking through the aisles of a vintage toy store feels like stepping into a time machine. You spot a shiny Hot wheels Car for just $4.99—irresistible. Next to it sits a perfectly preserved 90’s Happy Meal Toy, priced at $5.99, sparking memories of cardboard boxes and cartoon-themed fries. But the real gem is the original Nintendo console, a total throwback at $120.99, worth every penny for the wave of nostalgia it brings. You toss in another Hot wheels Car for good measure—because let’s be honest, one is never enough. Shopping like this doesn’t just fill a cart, it fills your inner child’s heart.
       </p>
+      
+      <h2>My Favorite 90s Toys</h2>
+<ul class="toy-list">
+  <li>Tamagotchi</li>
+  <li>Polly Pocket</li>
+  <li>Beanie Babies</li>
+  <li>Furby</li>
+</ul>
     
-      <table>
+    
+        <table class="tabel" >
         <tr>
-          <th style="">item</th>
-          <th style="">price</th>
+          <th id="tableheading" style="font-family: 'Bradley Hand ITC', cursive;">Item</th>
+          <th id="tableheadingprice"
+          style="font-family: 'Bradley Hand ITC', cursive;">Price</th>
         </tr>
         <tr>
-          <td style="">hotwheels car</td>
-          <td style="">$4.99</td>
+          <td style="font-family: 'Bradley Hand ITC', cursive;">Hotwheels Car</td>
+          <td style="font-family: 'Bradley Hand ITC', cursive;">$4.99</td>
         </tr>
         <tr>
-          <td style="">
-            Cabbage patch doll
+          <td style="font-family: 'Bradley Hand ITC', cursive;">
+            90's Happy Meal Toy
           </td>
-          <td style="">$1.99</td>
+          <td style="font-family: 'Bradley Hand ITC', cursive;">$5.99</td>
         </tr>
-      </table>
-    
-      <button style="">Buy Now!</button>
+        <tr>
+          <td style="font-family: 'Bradley Hand ITC', cursive;">Nintendo</td>
+          <td style="font-family: 'Bradley Hand ITC', cursive;">$120.99</td>
+        </tr>
+        <tr>
+          <td style="font-family: 'Bradley Hand ITC', cursive;">Hot Wheels Car</td>
+          <td style="font-family: 'Bradley Hand ITC', cursive;">$4.99</td>
+        </tr>
+        </table>
+          
+
+      <button style="font-family: 'Bradley Hand ITC', cursive;">Buy Now!</button>
     </main>
   
-    <nav>
-      <a> HOME </a> |
-      <a> ABOUT </a> |
-      <a> GALLERY </a>
-    </nav>
     
     <footer>
+      <p>© 2025 Lauren's Nostalgia World</p>
     </footer>
 
     <script src="./script.js"></script>

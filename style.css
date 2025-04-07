@@ -2,3 +2,68 @@ html {
   height: 100%;
   width: 100%;
 }
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: darkblue;
+}
+header{
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+}
+table, th, td {
+  border: 1px solid;
+}
+
+footer {
+  background-color: #ffb6c1;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 12px;
+}
+.toy-list {
+  background-color: rgba(255, 182, 193, 0.2);
+  padding: 16px;
+  border: 1px dashed palevioletred;
+  font-family: 'Bradley Hand ITC', cursive;
+}
+    table {
+         
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+        }
+       
+        
+        td, th {
+          text-align: left;
+          padding: 8px;
+  
+        }
+        
+        tr:nth-child(even) {
+          background-color: #f6d8e1;
+      
+        }
+        
+      
+      
+      #tableheading{background-color: rgb(249, 246, 242);}
+      
+      .paragraph3{background-color: blueviolet;}
+
+      #tableheadingprice{background-color: rgb(249, 246, 242);}

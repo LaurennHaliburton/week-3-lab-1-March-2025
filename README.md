@@ -20,7 +20,7 @@ You will start with an HTML document that needs style. There are several ways to
 
 3. In the style tag at the top (internal CSS), add a color property for every tag name used in your HTML document: h1, h2, p, em and others.
 
-**More styles for more tag names**: You can add style to the semantic html tags as well. header, footer, and main might have different rules. For example, you might want the font for footer to be smaller. You migth want the header to have a certain color background.  
+**More styles for more tag names**: You can add style to the semantic html tags as well. header, footer, and main might have different rules. For example, you might want the font for footer to be smaller. You might want the header to have a certain color background.  
 
 4. Add style rules for the header, footer and main elements yourself.
 
