@@ -32,21 +32,37 @@ body {
     flex-direction: column; 
     align-items: center; 
   }
-  
-  .gallery {
+  .gallery-item-wrapper {
     display: flex;
-    justify-content: center; 
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Match the size of regular images */
+  }
+  
+  .circle-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
   }
   
   .gallery-item {
-    width: 200px; 
-    height: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     border-radius: 8px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
   }
+  
+  .caption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+
+  
   
   footer {
     background-color: #ffb6c1;
